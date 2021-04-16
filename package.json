@@ -1,0 +1,30 @@
+{
+  "name": "daily-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoswijaya/daily-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amoswijaya/daily-news/issues"
+  },
+  "homepage": "https://github.com/amoswijaya/daily-news#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "newsapi": "^2.4.1",
+    "nodemailer": "^6.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
