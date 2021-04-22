@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './components/Navbar';
 import Home from './views/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Subscribe from './views/Subscribe';
 function App() {
   return (
     <>
@@ -11,8 +12,8 @@ function App() {
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route path="/subcribe">
-            <h1>Hello anjay</h1>
+          <Route path="/subscribe">
+            <Subscribe />
           </Route>
         </Switch>
       </Router>

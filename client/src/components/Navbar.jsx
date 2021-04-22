@@ -12,7 +12,7 @@ function Nav() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <NavLink className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/">Home</NavLink>
-                  <NavLink className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/subcribe">Subcribe</NavLink>
+                  <NavLink className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/subscribe">Subcribe</NavLink>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ function Nav() {
           <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <NavLink className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/">Home</NavLink>
-            <NavLink className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/subcribe">Subcribe</NavLink>
+            <NavLink className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/subscribe">Subcribe</NavLink>
           </div>
         </div>
         ):null}
